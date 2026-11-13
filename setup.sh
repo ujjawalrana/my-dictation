@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# One-command setup: ./setup.sh
+# One-command setup: bash setup.sh
 # Creates the virtual environment, installs everything, then starts my-dictation.
-# Use ./setup.sh --no-run to only set up.
+# Use bash setup.sh --no-run to only set up.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -20,7 +20,7 @@ for v in 3.12 3.11 3.13; do
 done
 if [[ -z "$PYTHON" ]]; then
   if ! command -v brew >/dev/null 2>&1; then
-    echo "Python 3.12 is needed. Install Homebrew from https://brew.sh, then run ./setup.sh again." >&2
+    echo "Python 3.12 is needed. Install Homebrew from https://brew.sh, then run bash setup.sh again." >&2
     exit 1
   fi
   say "Installing Python 3.12 with Homebrew"

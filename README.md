@@ -9,12 +9,12 @@ Runs [Whisper](https://github.com/openai/whisper) locally on Apple Silicon with 
 Needs a Mac with Apple Silicon (M1 or newer) and [Homebrew](https://brew.sh).
 
 ```sh
-git clone <this-repo-url> my-dictation
+git clone https://github.com/ujjawalrana/my-dictation.git
 cd my-dictation
-./setup.sh
+bash setup.sh
 ```
 
-`setup.sh` installs Python 3.12 if needed, creates a virtual environment, installs everything and starts the app.
+`bash setup.sh` installs Python 3.12 if needed, creates a virtual environment, installs everything and starts the app.
 The first start downloads the Whisper model (about 1.6 GB).
 
 **First time only:** in System Settings → Privacy & Security, allow your terminal app under **Microphone**, **Accessibility** and **Input Monitoring**.
