@@ -1,0 +1,16 @@
+# Environment
+.venv/
+__pycache__/
+
+# Your private data: never upload
+history.jsonl
+audio/
+recovered-*.txt
+current_session.txt
+dictionary.txt
+test.wav
+backups/
+logs/
+.dictate.lock
+
+.DS_Store
