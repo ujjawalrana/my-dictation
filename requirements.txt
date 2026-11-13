@@ -1,0 +1,13 @@
+# my-dictation: exact versions known to work (macOS, Apple Silicon, Python 3.12)
+mlx==0.32.4
+mlx-whisper==0.4.3   # speech to text
+mlx-lm==0.32.2       # optional AI clean-up (cleanup.py)
+numpy==2.5.4
+scipy==1.18.1
+sounddevice==0.5.6   # microphone
+pynput==1.8.2        # hotkey + paste
+pyperclip==1.11.0    # clipboard
+pyobjc-core==13.0
+pyobjc-framework-Cocoa==13.0                # menu bar, floating bar, clipboard restore
+pyobjc-framework-Quartz==13.0
+pyobjc-framework-ApplicationServices==13.0  # "is the cursor in a text box?"

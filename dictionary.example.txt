@@ -1,0 +1,11 @@
+# my-dictation personal dictionary. Changes apply to the next dictation, no restart needed.
+#
+# One word or name per line -> helps Whisper spell it right, e.g.:
+#   Iceberg
+#   Bloomreach
+#
+# "wrong => right" -> always replaced in the final text (ignores upper/lower case), e.g.:
+#   ice berg => Iceberg
+#   bloom reach => Bloomreach
+#
+# Lines starting with # are ignored. Add your words below.
